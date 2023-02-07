@@ -182,6 +182,54 @@ margin-left: 0px;
 
 }
 
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+  .things-we-do-categories {
+    flex-direction: column;
+  }
+
+  .things-we-do-categories-individual {
+    flex-direction: row;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .slideshow {
+    display: none;
+  }
+
+  .nav-bar-icons {
+    display: none;
+  }
+
+  .whats-up-imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .whats-up-img-individual {
+    width: 75%;
+  }
+}
+
+
+
+
+/*Medium only */
+@media screen and (min-width: 40em) and
+(max-width: 63.9375em) {
+
+  .things-we-do-categories {
+    display: grid;
+    grid-template:
+    "web-solutions photography"
+    "web-development web-design"
+  }
+}
+
+
 /**BOTTOM HALF PART CONTENT*/
 .bottom-main-container {
 
